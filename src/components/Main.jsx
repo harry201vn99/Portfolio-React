@@ -37,19 +37,23 @@ const Main = () => {
                                 >
                                     Download CV
                                 </button>
-                                <IoLogoGithub
-                                    className="rounded-full shadow-lg bg-gray-100 p-1 cursor-pointer hover:scale-110 ease-in duration-300"
-                                    size={45}
-                                />
-                                <IoLogoLinkedin
-                                    className="rounded-full shadow-lg bg-gray-100 p-1 cursor-pointer hover:scale-110 ease-in duration-300"
-                                    size={45}
-                                />
+                                <a href="https://github.com/harry201vn99">
+                                    <IoLogoGithub
+                                        className="rounded-full shadow-lg bg-gray-100 p-1 cursor-pointer hover:scale-110 ease-in duration-300"
+                                        size={45}
+                                    />
+                                </a>
+                                <a href="https://www.linkedin.com/in/harry-nguyen-a0222128b/">
+                                    <IoLogoLinkedin
+                                        className="rounded-full shadow-lg bg-gray-100 p-1 cursor-pointer hover:scale-110 ease-in duration-300"
+                                        size={45}
+                                    />
+                                </a>
                             </div>
                         </div>
                         <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
                             <img
-                                src="https://www.tailwind-kit.com/images/object/10.png"
+                                src="../src/assets/photos/myphoto.png"
                                 className="max-w-xs md:max-w-sm m-auto"
                             />
                         </div>
