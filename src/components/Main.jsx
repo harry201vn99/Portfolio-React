@@ -20,14 +20,14 @@ const Main = () => {
                         <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative">
                             <span className="w-20 h-2 dark:bg-white mb-12"></span>
                             <h1 className="text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white">
-                                Hello,
+                                Howdy!,
                             </h1>
                             <br></br>
                             <h2 className="text-2xl sm:text-4xl font-black flex flex-col leading-none dark:text-white">
                                 I&apos;m Harry Nguyen,
                             </h2>
                             <br></br>
-                            <h2 className="text-2xl sm:text-4xl font-black flex leading-none dark:text-white">
+                            <h2 className="text-2xl sm:text-4xl font-black flex leading-none dark:text-white whitespace-nowrap">
                                 I&apos;m a&nbsp;{textAnimation()}
                             </h2>
                             <div className="flex mt-8 space-x-4">
@@ -51,10 +51,10 @@ const Main = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
+                        <div className="hidden lg:block w-3/5 relative">
                             <img
-                                src="../src/assets/photos/myphoto.png"
-                                className="max-w-xs md:max-w-sm m-auto"
+                                src="../src/assets/photos/myImg.png"
+                                className="w-8/12 h-8/12 m-auto"
                             />
                         </div>
                     </div>
