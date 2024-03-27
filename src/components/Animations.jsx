@@ -29,6 +29,8 @@ const textAnimation = () => {
                 3000,
                 'Tech Enthusiast',
                 3000,
+                'PC Builder',
+                3000,
             ]}
             className="dark:text-blue-600"
             wrapper="span"
