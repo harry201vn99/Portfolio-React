@@ -4,12 +4,12 @@ import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io'
 
 const Main = () => {
     return (
-        <div id="main">
+        <div id="#main">
             {backgroundAnimation()}
             <main className="relative overflow-hidden h-screen">
                 <header className="h-24 sm:h-32 flex items-center w-full">
                     <div className="container mx-auto px-6 flex items-center justify-between">
-                        <div className="uppercase dark:text-white font-black text-3xl">
+                        <div className="uppercase dark:text-white font-black text-3xl animate-bounce">
                             Harry{' '}
                             <span className="dark:text-blue-500">Nguyen</span>
                         </div>
@@ -20,7 +20,7 @@ const Main = () => {
                         <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative">
                             <span className="w-20 h-2 dark:bg-white mb-12"></span>
                             <h1 className="text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white">
-                                Howdy!,
+                                Good Day!,
                             </h1>
                             <br></br>
                             <h2 className="text-2xl sm:text-4xl font-black flex flex-col leading-none dark:text-white">
