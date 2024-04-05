@@ -4,6 +4,7 @@ import { GoHome } from 'react-icons/go'
 import { IoMailOutline, IoDocumentTextOutline } from 'react-icons/io5'
 import { BsFileEarmarkPerson } from 'react-icons/bs'
 import { HiOutlineClipboardDocumentCheck } from 'react-icons/hi2'
+import Darkmode from './Darkmode'
 
 const Sidenav = () => {
     const [nav, setNav] = useState(false)
@@ -92,6 +93,7 @@ const Sidenav = () => {
                     >
                         <IoMailOutline size={20} />
                     </a>
+                    <Darkmode />
                 </div>
             </div>
         </div>
