@@ -53,8 +53,12 @@ const Main = () => {
                         </div>
                         <div className="hidden lg:block w-3/5 relative">
                             <img
-                                src="../src/assets/photos/myImg.png"
-                                className="w-8/12 h-8/12 m-auto"
+                                src="../src/assets/photos/myImgLight.png"
+                                className="w-8/12 h-8/12 m-auto block dark:hidden"
+                            />
+                            <img
+                                src="../src/assets/photos/myImgDark.png"
+                                className="w-8/12 h-8/12 m-auto hidden dark:block"
                             />
                         </div>
                     </div>
