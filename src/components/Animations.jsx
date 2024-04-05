@@ -32,7 +32,7 @@ const textAnimation = () => {
                 'PC Builder',
                 3000,
             ]}
-            className="dark:text-blue-600"
+            className="text-blue-600"
             wrapper="span"
             speed={50}
             repeat={Infinity}
