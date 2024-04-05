@@ -4,7 +4,7 @@ import About from './components/About'
 
 function App() {
     return (
-        <div>
+        <div className="dark:bg-gray-800 bg-white">
             <Sidenav />
             <Main />
             <About />
