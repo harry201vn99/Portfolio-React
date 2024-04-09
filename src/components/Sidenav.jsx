@@ -14,11 +14,14 @@ const Sidenav = () => {
 
     return (
         <div>
-            <FiMenu
-                onClick={changeNav}
-                className="absolute top-4 right-4 z-[99] md:hidden rounded-full shadow-lg bg-white p-1 cursor-pointer hover:scale-110 ease-in duration-300"
-                size={25}
-            />
+            <div className="absolute top-4 right-4 z-[99] flex items-center">
+                <Darkmode />
+                <FiMenu
+                    onClick={changeNav}
+                    className="md:hidden rounded-full shadow-lg bg-white p-1 cursor-pointer hover:scale-110 ease-in duration-300"
+                    size={25}
+                />
+            </div>
             {nav ? (
                 <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
                     <a
@@ -65,35 +68,34 @@ const Sidenav = () => {
                 <div className="flex flex-col">
                     <a
                         href="#main"
-                        className="rounded-full shadow-lg dark:bg-white dark:text-black bg-blue-600 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-0"
+                        className="rounded-full shadow-lg dark:bg-white dark:text-black bg-blue-600 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
                     >
                         <GoHome size={20} />
                     </a>
                     <a
                         href="#about"
-                        className="rounded-full shadow-lg dark:bg-white dark:text-black bg-blue-600 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-0"
+                        className="rounded-full shadow-lg dark:bg-white dark:text-black bg-blue-600 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
                     >
                         <BsFileEarmarkPerson size={20} />
                     </a>
                     <a
                         href="#skill"
-                        className="rounded-full shadow-lg dark:bg-white dark:text-black bg-blue-600 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-0"
+                        className="rounded-full shadow-lg dark:bg-white dark:text-black bg-blue-600 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
                     >
                         <HiOutlineClipboardDocumentCheck size={20} />
                     </a>
                     <a
                         href="#project"
-                        className="rounded-full shadow-lg dark:bg-white dark:text-black bg-blue-600 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-0"
+                        className="rounded-full shadow-lg dark:bg-white dark:text-black bg-blue-600 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
                     >
                         <IoDocumentTextOutline size={20} />
                     </a>
                     <a
                         href="#contact"
-                        className="rounded-full shadow-lg dark:bg-white dark:text-black bg-blue-600 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-0"
+                        className="rounded-full shadow-lg dark:bg-white dark:text-black bg-blue-600 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
                     >
                         <IoMailOutline size={20} />
                     </a>
-                    <Darkmode />
                 </div>
             </div>
         </div>

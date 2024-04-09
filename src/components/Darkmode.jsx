@@ -11,7 +11,7 @@ const Darkmode = () => {
 
     return (
         <button
-            className="rounded-full shadow-lg dark:bg-gray-100 dark:text-black bg-blue-600 text-white m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-0"
+            className="bg-transparent hover:bg-blue-500 text-gray-800 hover:text-white py-2 px-4 border hover:border-transparent rounded-full"
             onClick={() => darkModeToggler()}
         >
             {theme && <MdLightMode size={20} />}
